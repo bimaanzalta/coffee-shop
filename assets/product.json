@@ -1,0 +1,32 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Kopi",
+      "price": "3000",
+      "image": "~/assets/image1.png",
+      "description": "Ipsum proident eiusmod adipisicing deserunt in consequat tempor."
+    },
+    {
+      "id": 2,
+      "name": "Kopi Sumatra",
+      "price": "3000",
+      "image": "~/assets/image1.png",
+      "description": "Ipsum proident eiusmod adipisicing deserunt in consequat tempor."
+    },
+    {
+      "id": 3,
+      "name": "Kopi Gayo",
+      "price": "3000",
+      "image": "~/assets/image1.png",
+      "description": "Ipsum proident eiusmod adipisicing deserunt in consequat tempor."
+    },
+    {
+      "id": 4,
+      "name": "Kopi Bali",
+      "price": "3000",
+      "image": "~/assets/image1.png",
+      "description": "Ipsum proident eiusmod adipisicing deserunt in consequat tempor."
+    }
+  ]
+}

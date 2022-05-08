@@ -5,7 +5,7 @@
         <div class="p-4">
           <button class="rounded-full p-2" @click="toggleMenu">
             <svg
-              v-if="menuHidden"
+              v-if="hidden"
               xmlns="http://www.w3.org/2000/svg"
               class="h-8 w-8"
               fill="none"
@@ -55,16 +55,22 @@
           </button>
         </div>
       </nav>
-      <h1 class="text-3xl font-bold px-4">Hello,</h1>
-      <h1 class="text-3xl font-bold px-4">Anya Forger</h1>
+      <h1 class="text-3xl font-bold px-4 text-header">Hello,</h1>
+      <h1 class="text-3xl font-bold px-4 text-header">Anya Forger</h1>
     </header>
   </div>
 </template>
 
+<style >
+.text-header {
+  color: #213b44;
+}
+</style>
+
 <script>
 export default {
   props: {
-    menuHidden: Boolean,
+    hidden: Boolean,
   },
   methods: {
     toggleMenu() {
